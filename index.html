@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spring Framework</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        
+        
+        .feature {
+            margin-bottom: 10px;
+        }
+        .feature-title {
+            font-weight: bold;
+            color: #555;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <h1>Radhames A. Gonzalez 100446113</h1>
+
+    <h1>Spring Framework</h1>
+    <p>
+        El Spring Framework es un marco de trabajo para el desarrollo de aplicaciones en Java que ofrece soporte integral para construir aplicaciones robustas, eficientes y fáciles de mantener. Es ampliamente utilizado en aplicaciones empresariales, principalmente en arquitecturas basadas en Java y sistemas distribuidos.
+    </p>
+
+    <div class="section">
+        <h2>Principales Funcionalidades</h2>
+        <ul>
+            <li class="feature">
+                <span class="feature-title">Inversión de Control (IoC):</span>
+                Facilita la creación y gestión de objetos mediante la inyección de dependencias, eliminando la necesidad de gestionar explícitamente estas dependencias. Esto promueve un diseño desacoplado y más limpio.
+            </li>
+            <li class="feature">
+                <span class="feature-title">Programación Orientada a Aspectos (AOP):</span>
+                Permite separar preocupaciones transversales como logging, seguridad y manejo de transacciones mediante el uso de aspectos. Esto facilita un desarrollo modular sin ensuciar el código de negocio.
+            </li>
+            <li class="feature">
+                <span class="feature-title">Manejo de Transacciones:</span>
+                Proporciona un modelo coherente para manejar transacciones en aplicaciones, simplificando su integración con sistemas de persistencia como JDBC, JPA y Hibernate.
+            </li>
+            <li class="feature">
+                <span class="feature-title">Spring MVC:</span>
+                Un marco basado en el patrón Modelo-Vista-Controlador (MVC) para construir aplicaciones web modulares y separar responsabilidades.
+            </li>
+            <li class="feature">
+                <span class="feature-title">Acceso a Datos y Persistencia:</span>
+                Integra diversas tecnologías de acceso a datos como JDBC, Hibernate y JPA, simplificando su uso mediante plantillas como JdbcTemplate.
+            </li>
+            <li class="feature">
+                <span class="feature-title">Spring Boot:</span>
+                Facilita la configuración y despliegue rápido de aplicaciones, eliminando configuraciones extensas y proporcionando un servidor embebido como Tomcat.
+            </li>
+            <li class="feature">
+                <span class="feature-title">Seguridad (Spring Security):</span>
+                Ofrece un marco robusto para la autenticación y autorización, simplificando el control de acceso y la protección contra vulnerabilidades como CSRF y XSS.
+            </li>
+            <li class="feature">
+                <span class="feature-title">Integración (Spring Integration y Spring Cloud):</span>
+                Facilita la integración con servicios externos y sistemas distribuidos, con soporte para colas de mensajes, APIs REST y sistemas en la nube.
+            </li>
+            <li class="feature">
+                <span class="feature-title">Soporte para RESTful Services:</span>
+                Simplifica la creación de APIs REST mediante anotaciones como <code>@RestController</code>, haciendo el desarrollo más eficiente.
+            </li>
+            <li class="feature">
+                <span class="feature-title">Manejo de Eventos:</span>
+                Permite la creación y consumo de eventos personalizados dentro de la aplicación, mejorando la comunicación entre componentes sin acoplamiento fuerte.
+            </li>
+            <li class="feature">
+                <span class="feature-title">Configuración Flexible:</span>
+                Admite la configuración de aplicaciones mediante XML, anotaciones o clases Java, ofreciendo flexibilidad al desarrollador.
+            </li>
+            <li class="feature">
+                <span class="feature-title">Monitorización y DevTools:</span>
+                Incluye herramientas para la depuración, monitorización y reinicio automático durante el desarrollo, acelerando el ciclo de desarrollo.
+            </li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Ventajas del Spring Framework</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Concepto</th>
+                    <th>Ventaja</th>
+                </tr>
+            </thead>  
+            <tbody>
+                <tr>
+                    <td>Inversión de Control (IoC)</td>
+                    <td>Promueve un diseño desacoplado y limpio al delegar la creación de objetos a un contenedor IoC.</td>
+                </tr>
+                <tr>
+                    <td>Programación Orientada a Aspectos (AOP)</td>
+                    <td>Facilita el desarrollo modular y la gestión de lógica transversal sin ensuciar el código de negocio.</td>
+                </tr>
+                <tr>
+                    <td>Manejo de Transacciones</td>
+                    <td>Simplifica el manejo de transacciones en diferentes sistemas de persistencia (JDBC, JPA, Hibernate).</td>
+                </tr>
+                <tr>
+                    <td>Spring MVC</td>
+                    <td>Facilita la creación de aplicaciones web modulares y separa las responsabilidades entre lógica de negocio, controladores y vistas.</td>
+                </tr>
+                <tr>
+                    <td>Spring Security</td>
+                    <td>Simplifica la implementación de control de acceso y protección contra vulnerabilidades comunes (e.g., CSRF, XSS).</td>
+                </tr>
+                <tr>
+                    <td>Acceso a Datos</td>
+                    <td>Simplifica el acceso a datos con plantillas (e.g., JdbcTemplate) y reduce la complejidad de trabajar directamente con APIs nativas.</td>
+                </tr>
+                <tr>
+                    <td>Spring Boot</td>
+                    <td>Ofrece un enfoque basado en convenciones, configuraciones automáticas y un servidor embebido (Tomcat, Jetty) para acelerar el desarrollo.</td>
+                </tr>
+                <tr>
+                    <td>Integración (Spring Integration y Spring Cloud)</td>
+                    <td>Ofrece soporte para colas de mensajes, APIs REST, sistemas en la nube, y más.</td>
+                </tr>
+                <tr>
+                    <td>Soporte para RESTful Services</td>
+                    <td>Hace que el desarrollo de servicios web sea directo y eficiente.</td>
+                </tr>
+                <tr>
+                    <td>Manejo de Eventos</td>
+                    <td>Facilita la comunicación interna entre componentes sin acoplamiento fuerte.</td>
+                </tr>
+                <tr>
+                    <td>Configuración Flexible</td>
+                    <td>: Se adapta a las necesidades del desarrollador ofreciendo varias opciones para configurar la aplicación.</td>
+                </tr>
+                <tr>
+                    <td>Monitorización y DevTools</td>
+                    <td>Acelera el ciclo de desarrollo y depuración.</td>
+                </tr>
+
+                
+
+            </tbody>
+        </table>
+
+        
+    </div>
+</body>
+</html>
